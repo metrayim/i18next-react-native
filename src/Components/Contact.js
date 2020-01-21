@@ -6,9 +6,7 @@ import { withNavigationFocus } from 'react-navigation';
  class Contact extends Component {
     changeLang=()=>{
         if(i18next.language=='en'){
-                   i18next.changeLanguage('km')
-                 
-                  
+                   i18next.changeLanguage('km') 
                 }
                 else{
                    console.log('helloooo')
